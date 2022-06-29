@@ -1,0 +1,90 @@
+								INFRASTRUCTURE AND RELIABILITY
+
+GLOBAL INFRASTRUCTURE
+
+AWS provides a range of regions to support highly availability.
+
+Compliance (does the data has restrictions to any country? Usually complice states restrictions to where the software should operate.)
+Proximity (Close to the customer, usually the right call as the content will be provided faster compared to farther regions)
+Future availability
+Pricing (some locations are more expensive to operate)
+Each region is made up of multiple of data centers. AWS calls a single data center or a group of data centers a availability zone or AZ. AWS data centers have redundant power, networking and connectivity.
+
+Services that have the check “Regionally scoped service” are already high available.
+
+EDGE LOCATIONS
+
+AWS provides a CDN (Content Delivery Network [1] - Amazon cloud front) uses edge locations to accelerate communications with customers around the world.
+
+Regions are geographically isolated areas
+Regions contain availability zones
+Edge locations run Amazon CloudFront
+Best practice tip: deploy infrastructure across at least 2 availability zones
+
+AWS outpost installs a mini regions inside a private data center.
+
+HOW TO PROVISION AWS RESOURCES
+
+In AWS everything is an API call, there are pre determined ways to interact with AWS services. There are a few options to interact with those services, for example:
+
+AWS management console (web based, visually)
+AWS Command line interface (CLI - API calls via terminal)
+AWS Software Development Kits (SDKs - interface for different programming languages)
+
+
+								SECURITY
+
+The AWS security model is shared meaning, AWS is responsible for the security of the cloud, and you, the customer is responsible for the security in the cloud. AWS controls the servers, data centers and all the layers in this section.
+
+USER PERMISSIONS AND ACCESS
+
+AWS Identity and Access Management allows you to manage access to AWS services and resources.
+
+The root account is the owner of the AWS account, this is the default permission for an aws created account. The root user account controls any resources. As such, the recommended security approach is to turn on MF2, for this account.
+Users created by IAM, have no permissions by default. (Principle of least privilege)
+
+
+							  PRICING AND SUPPORT
+
+PRICING CONCEPTS
+
+Pay for what you use
+Pay less when you reserve
+Pay less with volume-based discount when you use more
+
+BILLING DASHBOARD
+
+The billing dashboard has the following information:
+
+Monthly-to-Date Spend by service
+Total month-to-date spend aggregated and forecast
+Top 5 Free Tier Services by Usage
+Access to cost explorer budget and bill
+The bill is split by services, and then regions
+
+AWS SUPPORT PLANS
+
+By default every customer at aws gets the basic support, no additional cost. The basic support offers:
+
+24/7 customer service
+Documentation
+Whitepapers
+Support forums
+AWS Trusted Advisor
+AWS Personal Health Dashboard
+Therefore, AWS offer the Developer support as well:
+
+It covers everything in the basic support
+Email access to customer support
+
+Business support:
+
+It covers everything in the basic support and developer support
+AWS Trusted Advisor provides full set of best practices checks
+Direct phone access to cloud support engineers
+Infrastructure event management
+
+
+
+
+
