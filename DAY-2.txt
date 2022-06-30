@@ -1,0 +1,127 @@
+								   AWS MCQ'S
+
+
+
+
+
+1. Which of the following is the central application in the AWS portfolio?
+A) Amazon Elastic Compute Cloud
+B) Amazon Simple Queue Service
+C) Amazon Simple Notification Service
+D) Amazon Simple Storage System
+
+1ans=A
+
+2. Which of the following is an online backup and storage system?
+A) Amazon Elastic Compute Cloud
+B) Amazon Simple Queue Service
+C) Amazon Simple Notification Service
+D) Amazon Simple Storage System
+
+2ans=D
+
+3.Which of the following is a system for creating block level storage devices that can be used for Amazon Machine Instances in EC2?
+A) CloudWatch
+B) Amazon Elastic Block Store
+C) AWS Import/Export
+D) All of the mentioned
+
+3ans=B
+
+4.You want to use an Amazon EC2 instance for a batch processing workload. What would be the best Amazon EC2 instance type to use?
+A)General purpose
+B)Memory optimized
+C)Compute optimized
+D)Storage optimized
+
+4ans=C
+
+5.What are the contract length options for Amazon EC2 Reserved Instances? (Select TWO.)
+A)1 year
+B)2 years
+C)3 years
+D)4 years
+E)5 years
+
+5ans= A and C
+
+6.You want to deploy and manage containerized applications. Which service should you use?
+A)AWS Lambda
+B)Amazon Simple Notification Service (Amazon SNS)
+C)Amazon Simple Queue Service (Amazon SQS)
+D)Amazon Elastic Kubernetes Service (Amazon EKS)
+
+6ans=D
+
+7.Which process is an example of Elastic Load Balancing?
+A.Ensuring that no single Amazon EC2 instance has to carry the full workload on its own
+B.Removing unneeded Amazon EC2 instances when demand is low
+C.Adding a second Amazon EC2 instance during an online store’s popular scale
+D.Automatically adjusting the number of Amazon EC2 instances to meet demand
+
+7ans=A
+
+8.You want to deploy and manage containerized applications. Which service should you use?
+A.AWS Lambda
+B.Amazon Simple Notification Service (Amazon SNS)
+C.Amazon Simple Queue Service (Amazon SQS)
+D.Amazon Elastic Kubernetes Service (Amazon EKS)
+
+8ans=D
+
+9.Your company has an application that uses Amazon EC2 instances to run the customer-facing website and Amazon RDS database instances to store customers’ personal information. How should the developer configure the VPC according to best practices?
+A.Place the Amazon EC2 instances in a private subnet and the Amazon RDS database instances in a public subnet.
+B.Place the Amazon EC2 instances in a public subnet and the Amazon RDS database instances in a private subnet.
+C.Place the Amazon EC2 instances and the Amazon RDS database instances in a public subnet.
+D.Place the Amazon EC2 instances and the Amazon RDS database instances in a private subnet.
+
+9ans=B
+
+10.Which component or service can be used to establish a private dedicated connection between your company’s data center and AWS?
+A.Private subnet
+B.DNS
+C.AWS Direct Connect
+D.Amazon CloudFront
+
+10ans=C
+
+11.Which statement best describes security groups?
+A.They are stateful and deny all inbound traffic by default.
+B.They are stateful and allow all inbound traffic by default.
+C.They are stateless and deny all inbound traffic by default.
+D.They are stateless and allow all inbound traffic by default.
+
+11ans=A
+
+12.Which component is used to connect a VPC to the internet?
+A.Public subnet
+B.Edge location
+C.Security group
+D.Internet gateway
+
+12ans=D
+
+13.Which service is used to manage the DNS records for domain names?
+A.Amazon Virtual Private Cloud
+B.AWS Direct Connect
+C.Amazon CloudFront
+D.Amazon Route 53
+
+13ans=D
+
+14.Which Amazon S3 storage classes are optimized for archival data? (Select TWO.)
+A.S3 Standard
+B.S3 Glacier
+C.S3 Intelligent-Tiering
+D.S3 Standard-IA
+E.S3 Glacier Deep Archive
+
+14ans=B AND E
+
+15.Which statement or statements are TRUE about Amazon EBS volumes and Amazon EFS file systems?
+A.EBS volumes store data within a single Availability Zone. Amazon EFS file systems store data across multiple Availability Zones.
+B.EBS volumes store data across multiple Availability Zones. Amazon EFS file systems store data within a single Availability Zone.
+C.EBS volumes and Amazon EFS file systems both store data within a single Availability Zone.
+D.EBS volumes and Amazon EFS file systems both store data across multiple Availability Zones.
+
+15ans=A
